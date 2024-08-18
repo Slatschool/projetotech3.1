@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3531359f;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+    
+}
+
+.container {
+
+
+
+    /*caixa do texto*/
+    background-color: #dab900;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(173, 10, 10, 0.1);
+    text-align: center;
+}
+
+h1 {
+    /*espaço entre titulo e texto*/
+    margin-bottom: 20px;
+}
+
+#options button {
+    /*customização do botão*/
+    background-color: #917519;
+    color: rgb(243, 243, 243);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: grabbing;
+    margin: 5px;
+}
+
+#options button:hover {
+    /*cor do botão ao passar o cursor*/
+    background-color: #e1f71c;
+    color: black;
+}
